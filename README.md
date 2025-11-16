@@ -30,7 +30,7 @@ Returns additional metadata:
 
 ## 🧪 API Endpoints
 
-### Test LIVE API ✔ POST https://your-app.onrender.com/kyc/pan/verify
+### Test LIVE API ✔ POST https://kyc-miniservice.onrender.com/kyc/pan/verify
 ```json
 {
     "pan": "ABCDE1234F"
@@ -38,7 +38,7 @@ Returns additional metadata:
 ```
 ### Test 2:
 
-### GET https://your-app.onrender.com/kyc/pan/insights/ABCDE1234F
+### GET https://kyc-miniservice.onrender.com/kyc/pan/insights/ABCDE1234F
 
 ### ✔ POST `/kyc/pan/verify`  
 Validate and verify a PAN.
