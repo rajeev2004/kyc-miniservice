@@ -38,16 +38,9 @@ Validate and verify a PAN.
 {
   "pan": "ABCDE1234F"
 }
-✔ GET /kyc/pan/insights/:pan
-Return metadata and risk insights.
+### ✔ GET `/kyc/pan/insights/:pan`
+Returns metadata and risk insights for the given PAN.
 
-Example:
 
-bash
-
-GET http://localhost:5000/kyc/pan/insights/ABCDE1234F
-🌐 Server
-The server runs locally at:
-
-arduino
-http://localhost:5000
+## 🌐 Server
+The server runs locally at: http://localhost:5000
