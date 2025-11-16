@@ -38,9 +38,9 @@ Validate and verify a PAN.
 {
   "pan": "ABCDE1234F"
 }
+```
 ### ✔ GET `/kyc/pan/insights/:pan`
 Returns metadata and risk insights for the given PAN.
-
 
 ## 🌐 Server
 The server runs locally at: http://localhost:5000
